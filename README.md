@@ -8,9 +8,6 @@
  
  
  
- <p align="center">
-  <a href="https://github.com/DarkWinzo"><img title="Support" src="https://img.shields.io/badge/maintained-Yes-cyan.svg?style=for-the-badge&logo=xcode" /></a>
-</p>
 
 
  ![forks](https://img.shields.io/github/forks/DarkWinzo/Queen-MD?label=Forks&style=social)
