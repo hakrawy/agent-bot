@@ -21,15 +21,15 @@ global.APIKeys = {
 }
 ////////////////////////////////////////////////////|:|             OWNER DETAILS             |:|//////////////////////////////////////////////////////////////////
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-global.session = process.env.SESSION_ID || 'PUT HERE',
-global.ownername = process.env.OWNER_NAME === undefined ? "DarkWinzo" : process.env.OWNER_NAME
-let fake = process.env.OWNER_NUMBER === undefined ? '94775200935' : process.env.OWNER_NUMBER
+global.session = process.env.SESSION_ID || 'cUJyajdLVjY=',
+global.ownername = process.env.OWNER_NAME === undefined ? "ALI-DOHAL" : process.env.OWNER_NAME
+let fake = process.env.OWNER_NUMBER === undefined ? '966596680057' : process.env.OWNER_NUMBER
 global.owner = [`${fake}`]
 global.ownernumber = [`${fake}`]
 global.premium = [`${fake}`]
 global.anticall = process.env.ANTICALL === undefined ? 'false' : process.env.ANTICALL
-global.packname = process.env.PACK_NAME === undefined ? 'Queen-MD' : process.env.PACK_NAME
-global.author = process.env.STICKER_AUTHOR_NAME === undefined ? 'DarkWinzo' : process.env.STICKER_AUTHOR_NAME
+global.packname = process.env.PACK_NAME === undefined ? 'ALI-DOHAL' : process.env.PACK_NAME
+global.author = process.env.STICKER_AUTHOR_NAME === undefined ? 'ALI-DOHAL' : process.env.STICKER_AUTHOR_NAME
 global.pmblock = process.env.PM_BLOCK === undefined ? 'false' : process.env.PM_BLOCK
 global.chatbot_pm = process.env.PM_CHATBOT === undefined ? 'false' : process.env.PM_CHATBOT
 global.chatbot_group = process.env.GROUP_CHATBOT === undefined ? 'false' : process.env.GROUP_CHATBOT
@@ -38,19 +38,19 @@ global.chatbot_group = process.env.GROUP_CHATBOT === undefined ? 'false' : proce
 global.sessionconvert = ['true']                           //This is session id method.....//Don't Change
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-global.Botname = 'Q'+'ᴜ'+'ᴇ'+'ᴇ'+'ɴ'+'-'+'ᴍ'+'ᴅ'
+global.Botname = 'A'+'L'+'I'+'D'+'O'+'-'+'H'+'L'
 global.prefa = ['.']
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 global.mess = {
-        wait: '*ᴘʟᴇᴀꜱᴇ ᴡᴀɪᴛ...⏳️*',
-        owner: '*🔰️ ᴏɴʟʏ ᴍʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ*',
-        group: '*🔰️ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ᴍᴀᴅᴇ ꜰᴏʀ *ɢʀᴏᴜᴘꜱ* ᴏɴʟʏ !*',
-        admin: '*🔰️ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴄᴀɴ ʙᴇ ᴜꜱᴇᴅ ᴏɴʟʏ ꜰᴏʀ *ɢʀᴏᴜᴘ ᴀᴅᴍɪɴ !*',
-        botadmin: '*ꜱᴏʀʀʏ😔️, ɪ ᴄᴀɴɴᴏᴛ ʀᴜɴ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ *ᴀᴅᴍɪɴ* ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ.*',
-        botAdmin: '*ꜱᴏʀʀʏ😔️, ɪ ᴄᴀɴɴᴏᴛ ʀᴜɴ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴡɪᴛʜᴏᴜᴛ ʙᴇɪɴɢ ᴀɴ *ᴀᴅᴍɪɴ* ᴏꜰ ᴛʜɪꜱ ɢʀᴏᴜᴘ.*',
-        banned: '*❌️ ʏᴏᴜ ᴀʀᴇ *ʙᴀɴɴᴇᴅ* ꜰʀᴏɴ ᴜꜱɪɴɢ ᴄᴏᴍᴍᴀɴᴅꜱ !*',
-        bangc: '*❌️ ᴛʜɪꜱ ɢʀᴏᴜᴘ ɪꜱ ʙᴀɴɴᴇᴅ ꜰʀᴏᴍ ᴜꜱɪɴɢ ᴄᴏᴍᴍᴀɴᴅꜱ !*',
+        wait: '*الرجاء الانتظار*',
+        owner: '*🔰️ يمكن لمالكي فقط استخدام هذا الأمر*',
+        group: '*🔰️ تم إنشاء هذا الأمر للمجموعات فقط !*',
+        admin: '*🔰️ يمكن استخدام هذا الأمر فقط لمدير المجموعة !*',
+        botadmin: '*اسف😔️, لا يمكنني تشغيل هذا الأمر دون أن أكون مسؤولاً عن هذه المجموعة.*',
+        botAdmin: '*اسف😔️, لا يمكنني تشغيل هذا الأمر دون أن أكون مسؤولاً عن هذه المجموعة.*',
+        banned: '*❌️ أنت ممنوع من استخدام الأوامر !*',
+        bangc: '*❌️ هذه المجموعة ممنوعة من استخدام الأوامر !*',
 }
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
